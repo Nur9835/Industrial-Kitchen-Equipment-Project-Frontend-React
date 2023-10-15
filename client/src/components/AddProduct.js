@@ -10,7 +10,7 @@ function AddProduct({ onClose }) {
   });
 
   const [categories, setCategories] = useState([]);
-  const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
 
   const [selectedCategoryId, setSelectedCategoryId] = useState('');
 

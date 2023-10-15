@@ -9,7 +9,7 @@ function Login({ onClose }) {
     password: ""
   });
   const [message, setMessage] = useState("");
-  const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

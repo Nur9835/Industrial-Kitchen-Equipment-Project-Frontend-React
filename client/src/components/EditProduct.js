@@ -9,7 +9,7 @@ function EditProduct({ onClose, selectedProductName, selectedProductDescription,
   const [productPrice, setProductPrice] = useState(selectedProductPrice);
   const [selectedCategoryId, setSelectedCategoryId] = useState(setSelectedCategoryID);
   const [productID ,setProductID] = useState(selectedProductID);
-  const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
   const [categories, setCategories] = useState([]);
 
   

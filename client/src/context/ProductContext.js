@@ -5,7 +5,7 @@ const ProductContext = createContext();
 
 export const ProductProvider = ({ children }) => {
 
-  const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
   
   const [products, setProducts] = useState([]);
   const [filterText, setFilterText] = useState('');

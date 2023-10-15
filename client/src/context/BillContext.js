@@ -7,7 +7,7 @@ const BillContext = createContext();
 
 export const BillProvider = ({ children }) => {
   
-  const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
   const[bills,setBills]= useState([]);
   const [selectedBill, setSelectedBill] = useState(null); 
   const [deletingBillName, setdeletingBillName] = useState('');

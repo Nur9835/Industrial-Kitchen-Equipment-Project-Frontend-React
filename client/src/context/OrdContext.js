@@ -18,7 +18,7 @@ export const OrderProvider = ({ children }) => {
         "createdBy": 'n'
       });
     
-  const apiUrl = 'http://localhost:8080';
+      const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
   const [selectedCategoryId, setSelectedCategoryId] = useState('');
   const [selectedProductId, setSelectedProductId] = useState('');
   const [selectedProductPrice, setSelectedProductPrice] = useState(null);

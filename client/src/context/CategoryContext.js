@@ -10,7 +10,7 @@ export const CategoryProvider = ({ children }) => {
 
     const [categories, setCategories] = useState([]);
     const [filterText, setFilterText] = useState('');
-    const apiUrl = 'http://localhost:8080';
+  const apiUrl = 'https://industrial-kitchen-equipment-project.onrender.com';
     const [selectedCategoryName, setSelectedCategoryName] = useState('');
     const [selectedCategoryId, setSelectedCategoryId] = useState(null);  
 

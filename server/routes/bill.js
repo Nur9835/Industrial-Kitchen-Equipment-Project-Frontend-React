@@ -11,7 +11,7 @@ const { report } = require('..');
 
 
 router.post('/generateReport', auth.authenticateToken, (req, res) => {
-    const generatedUuid = uuid.v1(); // Değişken adını düzeltin
+    const generatedUuid = uuid.v1(); 
     const orderDetails = req.body;
     const productDetailsReport = JSON.parse(orderDetails.productDetails);
   
